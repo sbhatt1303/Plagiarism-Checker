@@ -1,0 +1,33 @@
+def construct_shingles(doc,k):
+
+	This function constructs shingles of length k from given document.
+
+def make_shingles(docs,k):
+	
+	This function constructs shingles of length k from all documents.
+
+def initialize_matrix(docs,shingles):
+	
+	This function returns a zero matrix of required size.
+
+def make_matrix(docs,shingles):
+	
+	This constructs the boolean matrix for a given documents column wise.
+
+def generate_hash_functions(n):
+	
+	This generates n hash functions randomly of the form ax + b.
+
+def make_signature_matrix(matrix,n):
+	
+	This constructs the signature matrix for the documents 
+
+def euclidean_distance(x,y):
+	
+	This returns the sum of all euclidean distance between x and y	
+
+def LSH(SIG,t,bands,rows):
+	
+	Applies LSH technique.
+
+

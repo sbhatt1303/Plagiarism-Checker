@@ -1,0 +1,19 @@
+Architecture -
+
+The Plagiarism Checker consists of three Python scripts and one Bash script - PlagiarismChecker.py, average.py, OutputErase.py, Run.sh
+average.py and OutputErase.py are helper scripts used to take the average over some 100 runs and clear the output files respectively.
+PlagiarismChecker.py is the primary script, and is used to run the actual application.
+Run.sh is a bash script that runs all the above 3 scripts and the outputs the percentage of similarity between the given documents.
+
+
+Data Structures Used -
+
+The majorly used data structures are:
+Lists - can be considered linear, random access arrays, used for general purpose storage.
+Dictionaries - these are implemented in Python as Hash Maps, and so offer fast searching and mapping of information, and hence were very useful in the project.
+
+
+Distance Measures Used -
+
+Euclidean Distance
+Cosine Distance

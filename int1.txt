@@ -1,1 +1,1 @@
-The built-in function help invokes the online help system in the interactive interpreter, which uses pydoc to generate text on the console. The same text documentation can also be viewed from outside the Python interpreter by running pydoc as a script at the operating system command prompt. For example, running
+-
